@@ -1,0 +1,95 @@
+body {
+    background-color: #5b258d;
+    /*main*/
+    color: #f3e6ff;
+    /*secondary*/
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  body h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+  }
+  
+  body .container .buttonWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body .container .buttonWrapper {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+  }
+  
+  body button {
+    background-color: #6664e8;
+    /*accent*/
+    color: #f3e6ff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    margin: .6em;
+    cursor: pointer;
+  }
+
+
+  .addClassCss{
+
+      border: 5px solid rgb(36, 36, 36);
+      border-radius: 12px;
+      background-color: #c9c9c9;
+      color: #161616;
+      width: 50%;
+      height: 10vh;
+      text-align: center;
+  }
